@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg" style="background-color: white;">
+    <div class="container-fluid">
+      <img src="../images/w1.jpg" alt="" style="width: 290px; height: 65px;" class="ms-5 ps-5">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-5 me-5 ">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#"><b>Home</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> <b>Courses</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> <b>Placements</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><b>Gallery</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><b>About us</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><b>Contact</b></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="../images/L1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block text-start ">
+          <h1 class="display-5 fw-bold text-start mb-5 me-5 pe-5">Kerala's No.1 IT Finishing School<br>100% Placement
+            Assistance</h1>
+          <p class="mb-5 me-5 pe-5" style="margin-bottom: 40px;">We at LUMINAR TECHNOLAB offers best software training
+            and placement in emerging <br>
+            technologies like BIG DATA,datascience,machine Learning,PYTHON,software Testing.</p>
+          <button type="button" class="btn btn-secondary mt-2 but " data-bs-toggle="modal"
+            data-bs-target="#exampleModal" class="btn btn-lg rounded-pill text-light mb-5 ms-5 "
+            style="background-color: blueviolet; border-radius: 30px; height: 70px; width: 200px; margin-bottom: 40px;"><b>VIEW COURSES
+              </b></button>
+
+        </div>
+      </div>
+      <div class="carousel-item " data-bs-interval="3000">
+        <img src="../images/L22.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block text-start ">
+          <h1 class="display-4 fw-bold text-start mb-5 me-5 pe-5">Data-Science, ML & AI <br> Big Data - Hadoop & Spark
+            <br>Python
+            Data Science</h1>
+          <p class="text-start mb-4 me-5 pe-5">We LUMINAR TECHNOLAB offers best software training and placement in
+            emerging <br>
+            technologies like Big Data, Hadoop, Spark,Data Scince, Machine Learning, Deep Learning and AI.</p>
+
+          <button type="button" class="btn btn-secondary mt-2 but " data-bs-toggle="modal"
+            data-bs-target="#exampleModal" class="btn btn-lg rounded-pill text-light mb-5 ms-5"
+            style="background-color: blueviolet; border-radius: 30px; height: 70px; width: 200px; margin-bottom: 38px;"><b>VIEW COURSES</b></button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h1 class="modal-title fs-3 mb-3" id="exampleModalLabel" style="text-align: center;"><b>Get Training Quote For
+              Free</b></h1>
+          <form action="">
+            <input type="text" placeholder="Name" style="border: none;"><br>
+            <hr>
+            <input type="text" placeholder="Email" style="border: none;"><br>
+            <hr>
+            <input type="text" placeholder="Phone Number" style="border: none;"><br>
+            <hr>
+            <select class="form-select" aria-label="Default select example" style="border: none;">
+              <option selected>Select course interested in</option>
+              <option value="1">python</option>
+              <option value="2">mearn</option>
+              <option value="3">data science</option>
+            </select>
+            <hr>
+            <input type="text" placeholder="City" style="border: none;"><br>
+            <hr>
+            <input type="text" placeholder="Comments" style="border: none;"><br>
+            <textarea name="" id="" cols="60" rows="3" style="border: none; border-style: none;"></textarea>
+            <hr>
+
+            <div>
+              <button
+                style="background-color: blueviolet; color: white; width: 150px; height: 40px; margin-left: 50px; border: none; "><b>SUBMIT</b></button>
+
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+      </script>
+</body>
+
+</html>
